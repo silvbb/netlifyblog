@@ -8,4 +8,4 @@ then
   msg="$1"
 fi
 git commit -m "$msg" # Push source and build repos.
-git push origin main # Come Back up to the Project Root
+git push -u origin main # Come Back up to the Project Root
